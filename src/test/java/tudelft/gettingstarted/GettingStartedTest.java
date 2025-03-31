@@ -8,7 +8,7 @@ public class GettingStartedTest {
     @Test
     public void addFiveTo20() {
         int result = new GettingStarted().addFive(20);
-        Assertions.assertEquals(23,result);
+        Assertions.assertEquals(25,result);
     }
 
 //    UNCOMMENT THE CODE BELOW, AND FILL THE GAPS!
