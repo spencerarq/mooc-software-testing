@@ -36,4 +36,10 @@ public class RomanNumeralTestWithBeforeEach {
         int result = roman.convert("XLIV");
         Assertions.assertEquals(44, result);
     }
+
+    @Test
+    public void numberWithThreeDigits () {
+       int result = roman.convert("DLII");
+       Assertions.assertEquals(552,result);
+    }
 }
